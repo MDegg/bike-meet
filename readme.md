@@ -6,6 +6,8 @@
 * The Website Design Purpose
 * Pages
 * Page Sections
+* Media Queries
+* Testing
 
 # 
 
@@ -81,3 +83,56 @@ The social section allows the user to visit the social media pages of the club (
 Facebook, Twitter, Instagram and LinkedIn.
 
 ![](assets/images/sociallinks.JPG)
+
+# Media Queries
+
+The page has been designed to be responsive dependant on the screen size that the user chooses.  
+I used the dev tools within Google Chrome to test how the media query will work.  
+Using Ipad and Iphone as base screen sizes i was able to change the design of the page to suit.  
+Also due tousing a 27" screen myself I changed the style of the webpage to suit larger screens as wella s smaller.
+
+# Media Query Changes
+
+# Main Page
+
+For the main page I used a wider image to suit larger screens as the original image didn't display the width of the full screen over 24" screen size. 
+
+![](assets/images/mainpagewidescreen.JPG)  
+
+For a smaller Ipad screen I reduced the font size and moved the main image to the left on the x-axis to ensure that the motorcycle within the image was still displayed clearly and not hidden due to the narrow screen size.
+
+![](assets/images/mainpageipad.JPG) 
+
+For an even smaller Iphone screen I removed the page navigation bar to minimise the amount of screen content. I centered the page navigation buttons and page description for a even look.
+
+![](assets/images/iphonemain.JPG)
+
+# Meets
+
+For the Meets Section whern using an ipad I reduced the font-size to keep a similar look of the main webpage, keeping the meet divs inline.
+
+![](assets/images/ipadmeets.JPG)
+
+For the Iphone I found that the text was too small to view so enlarged the text and displayed in a vertical block, keeping the divs centered within the screen.
+
+![](assets/images/iphonemeets.JPG)
+
+## Events
+
+For the events section on both ipad and Iphone I was able to reduce the font-size to suit each screen size and still keep the original design.
+
+![](assets/images/ipadevents.JPG)
+
+For the Iphone i removed the background image and kept the color as white to suit the rest of the page design.
+
+![](assets/images/iphoneevents.JPG) 
+
+## Dealership and Social
+
+For both Iphone and Ipad i was able to reduce the size of the logos and icons to keep the design the same as the original webpage to display inline.
+
+![](assets/images/iphonedealershipandsocial.JPG)
+
+# Testing
+
+To test the webpage and it's features I scrolled through the page using its features without any issues. I used the dev tools appwithin Google Chrome to test the media queries without any issues and also used my own tablet and mobile phone to ensure that the pages display as designed. 
