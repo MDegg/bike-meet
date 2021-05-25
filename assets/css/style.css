@@ -1,0 +1,643 @@
+html, body{
+    margin:0;
+}
+
+header {
+    height:75px;
+    width:100%;
+    
+}
+
+header h2 {
+    float:left;
+    margin-top:25px;
+}
+
+#logo {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration:none;
+    color:#515A5A;
+    font-size:30px;
+    margin-left:25px;
+}
+
+#navlist li{
+    float:right;
+    display:inline;
+    margin-top:20px;
+    margin-right:25px;
+    border: 0.5px solid;
+    padding:5px;
+    border-radius:10%;
+    font-size:25px;
+    font-family:'Roboto Condensed', sans-serif;
+    
+    
+}
+
+#navlist a{
+    text-decoration: none;
+    color:#515A5A;
+}
+
+
+
+#navlist a:hover{
+    color:white;
+    background-color: #515A5A ;
+}
+
+.smallnav {
+    height:50px;
+    /*background-color: #fdcc80;*/
+    text-align:center;
+    width:100%;
+    clear:right;
+    /*position:fixed;*/
+    
+}
+
+.smallnav nav{
+    text-decoration:none;
+    margin-top:5px;
+    background-color:white;
+    
+
+}
+
+
+#smallnavlist {
+    text-decoration: none;
+    display:inline;
+    margin:50px; 
+    font-size:40px;
+    color:#515A5A ;
+
+}
+#smallnavlist a{
+    color:#515A5A ;
+}
+
+#smallnavlist a:hover {
+    color:#778bd1;
+}
+
+.icon-hover:hover:after {
+    position:relative;
+    font-size:15px;
+    /*content: attr(title);*/
+    /*display: inline-block;*/
+    padding: 5px;
+    background-color: #515A5A ;
+    color: white;
+    border-radius: 15%;
+}
+
+#main-image-background {
+    height:1000px;
+    width:100%;
+    background-color:white;
+    margin-bottom:50px;
+    position:relative;
+    margin-top:25px;
+    
+}
+#main-image {
+    background: url(../images/4516637.jpg) no-repeat center center;
+    width:95%;
+    margin:auto;
+    border:50px;
+    border-radius:10%;
+    height: 100%;
+    background-color:white;
+   
+}
+
+#description {
+    width:450px;
+    height:550px;
+    background-color:rgba(240, 240, 240, 0.6) ;
+    left:100px;
+    top:150px;
+    position:absolute;
+    color:black;
+    font-family: 'Playfair Display', serif;
+    padding:15px;
+    border-radius:5%;
+}
+
+
+.meets {
+    height:325px;    
+    background-color: white;
+    width:100%;
+    font-size: 20px;
+    
+    
+}
+
+.meets div{
+    float:left;
+    
+    color:#515A5A;
+    display:inline;
+    width:18%;
+    height:100%;
+    margin-left:20px;
+    text-align:center;
+    font-family:'Roboto Condensed', sans-serif;
+    
+}
+
+.meets div h2{
+    text-decoration: underline;
+}
+
+#events {
+    height:1200px;
+    width:100%;
+    background: url(../images/4516730.jpg) no-repeat center center;
+    border-radius:10%;
+    width:95%;
+    margin:auto;
+}
+
+#events-container {
+    display: flex;
+    height:1000px;
+    font-family:'Roboto Condensed', sans-serif;
+    text-align:center;
+    align-items: center;
+    justify-content:space-around;
+}
+
+#events-container a{
+     text-decoration:none;
+     color:#030f0f;
+     padding:5px;
+     border-radius:15%;
+     
+     
+}
+
+#events-container a:hover{
+     background-color:#030f0f ;
+     color:#f9d098;
+
+}
+
+#iframe-left {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    
+}
+
+#iframe-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    
+
+}
+
+#iframe-image {
+    height: 200px;
+    width: 300px;
+    border-radius:15%;
+}
+
+#iframe-image h3 {
+    text-decoration:underline;
+}
+
+#center-image { 
+    height: 300px;
+    width: 200px;
+    background: yellow;
+}
+
+.dealership {
+    height:200px;
+    background-color: white;
+    width:100%;
+    color:#515A5A;
+
+}
+
+.dealership div{
+    float:left;
+    color:#515A5A;
+    display:inline;
+    width:22%;
+    height:95%;
+    margin-top:50px;
+    margin-left:2%;
+    margin-bottom:50px;
+    padding-bottom:50px;
+    text-align:center;
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+
+#honda {
+    background:url(https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg) center center no-repeat;
+    background-size: contain;
+}
+
+#ktm{
+    background:url(https://www.dafont.com/forum/attach/orig/2/5/252230.gif) center center no-repeat;
+    background-size: contain;
+}
+
+#bmw{
+    background:url(https://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19707.png) center center no-repeat;
+    background-size: contain;
+}
+
+#kwak{
+    background:url(https://www.freepnglogos.com/uploads/kawasaki-png-logo/kawasaki-green-emblem-png-logo-1.png) center center no-repeat;
+    background-size: contain;
+}
+
+.social {
+    margin-top:50px;
+    
+    width:100%;
+    font-size: 50px;
+    background-color:white;
+    color:#515A5A;
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+.social ul{
+    
+    padding:10px;
+}
+
+.social li{
+    text-decoration: none;
+    
+    display:inline;
+    margin:10%;  
+
+}
+
+.social li a{
+    color:#515A5A;
+}
+   
+#gallery{
+    object-fit: contain;
+    clear:both;
+    line-height: 1px;
+    column-count: 3;
+    row-gap: 1px;
+    column-gap: 1px;
+}
+
+#gallery img{
+    width:100%;
+    
+}
+
+#signup-body {
+    background:url(../images/4516637.jpg) center center no-repeat;
+    height:1200px;
+    object-fit: cover;
+    width:100%;
+    border:10px solid white;
+    
+}
+
+#signup-container {
+    text-align:center;
+    width:500px;
+    height:500px;
+    margin:auto;
+    padding:25px;
+    top: 300px;
+    position:relative;
+    background-color: rgba(240, 240, 240, 0.9);
+    border-radius:10%;
+    font-family:'Roboto Condensed', sans-serif;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  /*.row:after {
+    
+    display: table;
+    clear: both;
+  }*/
+  
+  
+
+  @media screen and (min-width:2020px){
+        
+    #main-image{
+        background: url(../images/motorcycle_motorcyclist_cross_130131_2560x1440.jpg) center center no-repeat;
+    }
+
+    #description {
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius:15%;
+    }
+
+    
+}
+
+@media screen and (max-width:1024px){
+
+    #logo{
+      font-size:20px;
+      margin-left:10px;
+    }
+    
+    
+    #navlist {
+        float:right;
+        margin-left:5%;
+        font-size:20px;
+    
+    }
+
+    #navlist li {
+        font-size:20px;
+    }
+    
+    .smallnav {
+        height:50px;
+        
+        text-align:center;
+        width:100%;
+    
+    }
+    
+    #smallnavlist {
+        margin:20px;
+        font-size:35px;
+        display:inline;
+    }
+    
+    #main-image-background {
+        height:1000px;
+        width:100%;
+    
+    }
+
+    #main-image{
+        background-position-x: -1000px;
+    }
+    
+    #description {
+        
+        background-color:rgba(255, 255, 255, 0.7) ;
+        right:150px;
+        top:150px;
+        border-radius:5%;
+    
+    }
+
+    
+    
+    .meets {
+        width:100%;
+        margin-bottom:30px;
+        height:375px;
+    
+    }
+    
+    .meets div{
+        width:15%;
+        margin-left:30px;
+    
+    }
+    
+    .events{
+        height:1000px;
+        width:90%;
+        margin-bottom:30px;
+    
+    }
+    
+    #center-image-container{
+        display: none;
+    }
+    
+    .dealership {
+        width:100%;
+    
+    }
+    
+    .dealership div{
+        width:20%;
+        margin-left:3%;
+        margin-bottom:25px;
+        padding-bottom:30px; 
+    }
+   
+    .social {
+    
+        width:100%;
+        font-size: 30px;
+    }
+    
+    .social ul{
+        
+        padding:5px;
+    }
+       
+}
+
+    @media screen and (max-width:600px){
+
+    #navlist {
+        clear:left;
+        margin-bottom:0px;
+        margin-right:40px;
+        height:10px;
+        margin-top:0px;
+                
+        }   
+        
+    #hideonmobile {
+        display:none;
+     }
+
+
+    
+     #main-image-background {
+        height:700px;
+     }
+
+    #main-image{
+        height:700px;
+    }
+    
+    #description{
+        top:10%;
+        width:300px;
+        height:375px;
+        font-size: 10px;
+        left:10%;
+    }
+
+    .meets {        
+        font-size: 11px;
+        height:225px;
+        margin-left:2%;
+    }
+
+    .meets div {
+        margin-left:4%;
+        padding:1.5px;
+    }
+
+     #iframe-image{
+         width:150px;
+         height:100px;
+     }
+
+     #events-container {
+        display: flex;
+        height:500px;
+        font-family:'Roboto Condensed', sans-serif;
+        font-size: 12px;
+        text-align:center;
+        align-items: center;
+        justify-content:space-evenly;
+        margin-top:30px;
+    }
+ 
+     #events {
+        color:#515A5A;
+        background:none;
+        height:700px;
+        width:100%;
+        background-color:white;
+        border-radius:10%;
+        width:95%;
+        margin:auto;
+    }
+
+    .dealership {
+        height:75px;
+            
+    }
+
+    .dealership div {
+        margin-top:0;
+        margin-left:4%;
+        margin-bottom:0;
+        padding-bottom:0;
+    }
+    
+    .social li {
+        margin:5%;  
+    
+    }
+
+    #gallery{
+        column-count: 1;
+    }
+
+    #signup-body {
+        background:none;
+        height:600px;
+        width:100%;
+        
+    }
+    
+    #signup-container {
+        text-align:center;
+        width:100%;
+        height:500px;
+        margin:auto;
+        padding:25px;
+        top: 100px;
+        position:relative;
+        background-color: rgba(240, 240, 240, 0.9);
+        border-radius:10%;
+        font-family:'Roboto Condensed', sans-serif;
+        
+    }
+    
+}
+
+@media screen and (max-width:450px){
+    .meets{
+        height:1300px;
+        margin:auto;
+        
+        border:5px solid white;
+        padding-top:20px;
+        
+        
+        
+    }
+
+    .meets div{
+        font-size:15px;
+        clear:both;
+        height:250px;
+        width:80%;
+        margin-bottom:10px;
+        margin-left:10%;
+        border: solid 1px ;
+        border-radius:10%;
+        padding:5px;
+        color:#515A5A;
+
+    }
+}
