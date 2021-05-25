@@ -123,16 +123,21 @@ For the events section on both ipad and Iphone I was able to reduce the font-siz
 
 ![](assets/images/ipadevents.JPG)
 
-For the Iphone i removed the background image and kept the color as white to suit the rest of the page design.
+For the Iphone I removed the background image and kept the color as white to suit the rest of the page design.
 
 ![](assets/images/iphoneevents.JPG) 
 
 ## Dealership and Social
 
-For both Iphone and Ipad i was able to reduce the size of the logos and icons to keep the design the same as the original webpage to display inline.
+For both Iphone and Ipad I was able to reduce the size of the logos and icons to keep the design the same as the original webpage to display inline.
 
 ![](assets/images/iphonedealershipandsocial.JPG)
 
 # Testing
 
-To test the webpage and it's features I scrolled through the page using its features without any issues. I used the dev tools appwithin Google Chrome to test the media queries without any issues and also used my own tablet and mobile phone to ensure that the pages display as designed. 
+To test the webpage and it's features I scrolled through the page using its features without any issues. I used the dev tools appwithin Google Chrome to test the media queries without any issues and also used my own tablet and mobile phone to ensure that the pages display as designed.   
+In addition to the physical testing all HTML and CSS code have been pushed through the validator without any errors.  
+Two warnings showing as below.
+
+![](assets/images/htmlvalidator.JPG)
+
