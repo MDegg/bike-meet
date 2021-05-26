@@ -66,7 +66,7 @@ header h2 {
 }
 
 
-#smallnavlist {
+#smallnavlist li{
     text-decoration: none;
     display:inline;
     margin:50px; 
@@ -171,6 +171,10 @@ header h2 {
     justify-content:space-around;
 }
 
+#events-container h2 {
+    text-decoration: underline;
+}
+
 #events-container a{
      text-decoration:none;
      color:#030f0f;
@@ -180,6 +184,12 @@ header h2 {
      
 }
 
+#events-container p {
+    background-color: rgba(249, 208, 152, 0.6);
+    border-radius:15%;
+    padding:5px;
+}
+
 #events-container a:hover{
      background-color:#030f0f ;
      color:#f9d098;
@@ -187,13 +197,18 @@ header h2 {
 }
 
 #iframe-left {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     height: 100%;
     
+}
+
+#iframe-left iframe {
+    height:200px;
+    width:300px;
+    border:none;
 }
 
 #iframe-right{
@@ -203,14 +218,25 @@ header h2 {
     justify-content: space-between;
     height: 100%;
     
+}
+
+#iframe-right iframe {
+    height:200px;
+    width:300px;
+    border:none;
 
 }
 
-#iframe-image {
+/*#iframe-image {
     height: 200px;
     width: 300px;
-    border-radius:15%;
-}
+    
+}*/
+
+/*#iframe-image iframe {
+    height: 100%;
+    width: 100%;
+}*/
 
 #iframe-image h3 {
     text-decoration:underline;
@@ -294,21 +320,25 @@ header h2 {
     color:#515A5A;
 }
    
-#gallery{
+#gallery {
     object-fit: contain;
     clear:both;
     line-height: 1px;
     column-count: 3;
     row-gap: 1px;
     column-gap: 1px;
-}
-
-#gallery img{
-    width:100%;
+    
     
 }
 
-#signup-body {
+#gallery img {
+    width:100%;
+    overflow:hidden;
+    
+
+}
+
+#signup-form {
     background:url(../images/4516637.jpg) center center no-repeat;
     height:1200px;
     object-fit: cover;
@@ -424,7 +454,7 @@ header h2 {
     
     }
     
-    #smallnavlist {
+    #smallnavlist li {
         margin:20px;
         font-size:35px;
         display:inline;
@@ -464,10 +494,10 @@ header h2 {
     
     }
     
-    .events{
+    #events{
         height:1000px;
         width:90%;
-        margin-bottom:30px;
+        
     
     }
     
@@ -488,9 +518,11 @@ header h2 {
     }
    
     .social {
-    
+        height:50px;
         width:100%;
         font-size: 30px;
+        margin-top:0;
+        margin-bottom:30px;
     }
     
     .social ul{
@@ -506,7 +538,7 @@ header h2 {
         clear:left;
         margin-bottom:0px;
         margin-right:40px;
-        height:10px;
+        height:60px;
         margin-top:0px;
                 
         }   
@@ -549,6 +581,18 @@ header h2 {
          height:100px;
      }
 
+     #iframe-right iframe {
+        height:200px;
+        width:150px;
+        border:none;
+     }
+
+     #iframe-left iframe {
+        height:200px;
+        width:150px;
+        border:none;
+     }
+
      #events-container {
         display: flex;
         height:500px;
@@ -571,6 +615,12 @@ header h2 {
         margin:auto;
     }
 
+    #events-container p {
+        background-color: white;
+        border-radius:15%;
+        padding:5px;
+    }
+
     .dealership {
         height:75px;
             
@@ -585,14 +635,16 @@ header h2 {
     
     .social li {
         margin:5%;  
+        
     
     }
 
-    #gallery{
+    #gallery {
         column-count: 1;
+        margin-top:20px;
     }
 
-    #signup-body {
+    #signup-form {
         background:none;
         height:600px;
         width:100%;
