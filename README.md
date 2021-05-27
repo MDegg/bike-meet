@@ -4,10 +4,13 @@
 
 * Introduction
 * The Website Design Purpose
+* User Story
 * Pages
 * Page Sections
 * Media Queries
 * Testing
+* Deployment
+* Acknowledgments
 
 # 
 
@@ -20,6 +23,12 @@ The purpose of the website is to demonstrate my learning and understanding of HT
 
 The website has been designed for a small adventure bike riders club to showcase their club and gain interest for others to join.  
 The website has been designed to atract attention by the way of motorcycle images, links to other websites, where discounts are given when using the cluibs discount codes, and links to dealerships where people can view new motorcycles in their local dealerships.  
+
+# User Story  
+
+As a user of the ADV Riders website I want to be able to understand the purpose of the club and see what benefits I gain from joining. I would like to scroll through the site to gather information on what the club is all about. By looking at the events section such as "Wheelie School" I am able to see what each event is by viewing videos of previous events. I am able to see the meet times of all of the bike meetings which describe the routes that each meet takes. 
+The dealership section has logos of popular motorcycle dealers which act as lonks to the main dealer websites. 
+By clicking the vavigation buttons on the websites header I am able to view the gallery, which shows my images of previous meets and events. The Contact button takes me to an additional page which allows me to contact the club with any queries that I have regarding their club and how to join. 
 
 # Pages
 
@@ -140,4 +149,18 @@ In addition to the physical testing all HTML and CSS code have been pushed throu
 Two warnings showing as below.
 
 ![](assets/images/htmlvalidator.JPG)
+
+# Deployment
+
+To deploy this project I used Github and gitpod. I first created a repository using the Github terminal. I then cloned the repoository to a folder of which I wanted to store the project. I then added the index.html file. After completing the code I created a CSS file to enable me to style the project. I then added, comitted and pushed all changes to the staging area.
+
+
+## Acknowledgements
+
+All images courtesy of Pinterest.  
+Code validation courtesy of W3C.  
+Code formatting courtesy of webformatter.com.  
+Logo images courtesy of wikipedia and pinterest.
+
+
 
