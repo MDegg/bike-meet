@@ -144,7 +144,8 @@ For both Iphone and Ipad I was able to reduce the size of the logos and icons to
 
 # Testing
 
-To test the webpage and it's features I scrolled through the page using its features without any issues. I used the dev tools appwithin Google Chrome to test the media queries without any issues and also used my own tablet and mobile phone to ensure that the pages display as designed.   
+To test the webpage and it's features I scrolled through the page using its features without any issues.  
+ I used the dev tools app within Google Chrome to test the media queries where issues started to show. Mainly divs and sections overlapping. I used the dev tool to change the css code until the page displaeyd properly. I then changed the css code to suit within the media query sections. Also iframes and logos became distorted and overlapping. Again used dev tool to rectify and copied code in CSS. I then copied the link and opened on my own tablet and mobile phone to ensure that the pages display as designed.   
 In addition to the physical testing all HTML and CSS code have been pushed through the validator without any errors.  
 Two warnings showing as below.
 
@@ -153,6 +154,7 @@ Two warnings showing as below.
 # Deployment
 
 To deploy this project I used Github and gitpod. I first created a repository using the Github terminal. I then cloned the repoository to a folder of which I wanted to store the project. I then added the index.html file. After completing the code I created a CSS file to enable me to style the project. I then added, comitted and pushed all changes to the staging area.
+I then deployed to Github by going to settings, pages, select root and saved the file. The project was then branched to github for viewing.
 
 
 ## Acknowledgements

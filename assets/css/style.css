@@ -308,6 +308,7 @@ header h2 {
     object-fit: cover;
     width: 100%;
     border: 10px solid white;
+	border-color:rgba(228, 228, 244, 1);
 }
 
 #signup-container {
@@ -535,7 +536,7 @@ input[type="submit"]:hover {
     #signup-container {
         text-align: center;
         width: 100%;
-        height: 500px;
+        height: 450px;
         margin: auto;
         padding: 25px;
         top: 100px;
